@@ -4,6 +4,7 @@ public class HelloWorld {
     //Call to main
     public static void main(String[] args) {
         //Declaration and Initialization of Variable
+        System.out.println();
         int myAge = 40;
         int herAge = myAge;
         char alpha = 'b';
@@ -18,6 +19,7 @@ public class HelloWorld {
         System.out.println(aByte);
         System.out.println("Hello world, this is my first java programm");
         System.out.println(see);
+        System.out.println();
     }
 
 }
