@@ -3,14 +3,21 @@ public class IfStatement {
         int myAge = 0;
         while(true) {
             System.out.println("In the loop");
-
-            if(myAge == 6) {
+             if(myAge == 6) { 
+                System.out.println("Out of the loop");
                 break;
+                
+                  
             }
-            myAge++;
-            System.out.println("Out of the loop");
+                  myAge++;
+            
+
+           
         }
-       
     }
-    
 }
+        
+        
+            
+       
+    
