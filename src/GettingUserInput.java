@@ -2,25 +2,16 @@ import java.util.Scanner;
 
 public class GettingUserInput {
     public static void main(String[] args) {
-        
-        Scanner input = new Scanner (System.in);
-        
-        
-        String answer = "wahab";
-        boolean dec = true;
+        Scanner input = new Scanner(System.in);
+        int myAnswer = 0;
         do {
-            System.out.println("Guess the name");
-             var text = input.nextLine();
-             if(text.equals(answer)) {
-               dec = false;
-             }
-             System.out.println(text);
+             System.out.println("Declare your answer");
+             myAnswer = input.nextInt();
         }
+        while(myAnswer != 9);
 
-        while(dec);
-            System.out.println("You guessed right!");
-
-    
+        System.out.println("You got the right answer");
+        
     }
     
 }
