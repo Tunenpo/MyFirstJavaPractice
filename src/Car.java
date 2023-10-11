@@ -1,9 +1,17 @@
-public class Car extends Factory {
+public class Car extends Vehicle {
   
-        
-    public void programming() {
+      @Override
+      
+    public void design() {
 
-        System.out.println("programing is my best hobby at the moment");
+        System.out.println("Car design");
     }
-    
+    public void ride() {
+        System.out.println("Riding the car");
+    }
+
+    public void get() {
+
+        System.out.println("I am beginning to get what real coding is");
+    }
 }

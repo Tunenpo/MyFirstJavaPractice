@@ -2,24 +2,21 @@ public class Application {
  
     public static void main(String[] args) {
 
-        // Access modifiers: public, protected, default (lack of access modifiers), private
+       Vehicle vehicle1 = new Vehicle();
+       Car car  = new Car();
+       
         
-        Factory factory1 = new Factory();
-        
-        factory1.design();
-        factory1.build();
-        factory1.java();
-       //factory1.programming();
+       Vehicle vehicle2 = new Car();
 
-        Car car1 = new Car();
-        car1.wahab();
-        
-        
-        car1.design();
-        car1.build();
-        car1.java();
-        car1.programming();
+       vehicle2.design();
+       car.ride();
+       car.get();
+       
 
-        
+      // createDesign(car);
+    
+    //public static void createDesign(Vehicle vehicle) {
+
+        //vehicle.design();
     }
 }
